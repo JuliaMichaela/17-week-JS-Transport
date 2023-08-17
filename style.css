@@ -1,0 +1,47 @@
+body {
+    background-color: rgba(137, 139, 143, 0.216);
+}
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.container{
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+  .containerCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1px;
+    border:groove;
+  }
+  .container p {
+    width: 200px;
+    flex-basis: auto;
+    margin: 0;
+    padding: 5px;
+    border: groove;
+  }
+  .img-container {
+    flex-basis: auto;
+    width: 500px;
+    max-width: 100%;
+    border: groove;
+  }
+  .image {
+    width: 500px;
+    max-width: 100%;
+  }
